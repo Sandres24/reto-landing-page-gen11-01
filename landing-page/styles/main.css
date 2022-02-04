@@ -1,3 +1,22 @@
 :root {
-    
+    --color-primary-pink: hsl(322, 100%, 66%);
+    --color-primary-light-pink: hsl(321, 100%, 78%);
+    --color-primary-light-red: hsl(0, 100%, 63%);
+    --color-neutral-very-dark-cyan: hsl(192, 100%, 9%);
+    --color-neutral-very-pale-blue: hsl(207, 100%, 98%);
+    --font-family-headings: 'Poppins';
+    --font-weight-headings: 700;
+    --font-family-headings: 'Open Sans';
+    --font-weight1-headings: 400;
+    --font-weight2-headings: 600;
+    --font-weight3-headings: 700;
+    --icon-font-awesome: 'https://fontawesome.com/';
+    --ico-moon: 'https://icomoon.io';
+    --ion-icons: 'https://ionicons.com';
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
