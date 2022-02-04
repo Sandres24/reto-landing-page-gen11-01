@@ -1,0 +1,199 @@
+@import url('./main.css');
+
+/* DESIGN FOR 375PX - MOBILE */
+
+.conversation {
+    width: 100%;
+    margin-bottom: 7rem;
+}
+
+.conversation__image {
+    background-image: url('../assets/images/illustration-flowing-conversation.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    margin:auto;
+    margin-bottom: 4rem;
+}
+
+.conversation__description {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.conversation__description>h2 {
+    font-family: var(--font-family-headings);
+    font-weight: var(--font-weight-headings);
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+.conversation__description>p {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight1-body);
+    font-size: 14px;
+}
+
+.users {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.users__container {
+    background-color: var(--color-top-bottom-section);
+    padding: 1rem 0 7rem 0;
+}
+
+.users__bg-section-top {
+    background-image: url('../assets/images/bg-section-top-mobile-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 103px;
+}
+
+.users__image {
+    background-image: url('../assets/images/illustration-your-users.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+.users__description {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.users__description>h2 {
+    font-family: var(--font-family-headings);
+    font-weight: var(--font-weight-headings);
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+.users__description>p {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight1-body);
+    font-size: 14px;
+}
+
+.users__bg-section-bottom {
+    background-image: url('../assets/images/bg-section-bottom-mobile-2.svg');
+    background-repeat: no-repeat;
+    height: 103px;
+}
+
+.get-started {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.get-started>h2 {
+    font-family: var(--font-family-headings);
+    font-weight: var(--font-weight-headings);
+    font-size: 24px;
+    margin-bottom: 2rem;
+}
+
+.get-started>button {
+    background-color: var(--color-primary-pink);
+    font-weight: var(--font-weight2-body);
+    font-family: var(--font-family-body);
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: .7rem 3rem;
+    border: none;
+    border-radius: 10rem;
+}
+
+.get-started>button:hover {
+    background-color: var(--color-primary-light-pink);
+}
+
+/* DESIGN FOR 1140PX - DESKTOP */
+
+@media only screen and (min-width: 1440px) {
+
+    .conversation {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .conversation__image {
+        background-position-x: left;
+        width: 45vw;
+        height: 40vh;
+        margin: 0;
+    }
+
+    .conversation__description {
+        width: 42%;
+        margin: 0;
+        text-align: left;
+    }
+
+    .conversation__description>h2 {
+        font-size: 40px;
+        margin-bottom: .5rem;
+    }
+    
+    .conversation__description>p {
+        font-size: 16px;
+    }
+
+    .users {
+        margin-bottom: 7rem;
+    }
+    
+    .users__container {
+        width: 100%;
+        margin: 0;
+        padding: 1rem 7.55% 7rem 7.5%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .users__bg-section-top {
+        background-image: url('../assets/images/bg-section-top-desktop-2.svg');
+        height: 156px;
+    }
+    
+    .users__image {
+        background-position-x: right;
+        width: 40vw;
+        height: 40vh;
+        margin: 0;
+    }
+    
+    .users__description {
+        width: 43%;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .users__description>h2 {
+        font-size: 40px;
+    }
+    
+    .users__description>p {
+        font-size: 16px;
+    }
+
+    .users__bg-section-bottom {
+        background-image: url('../assets/images/bg-section-bottom-desktop-2.svg');
+        height: 139px;
+    }
+
+}
