@@ -4,15 +4,13 @@
     --color-primary-light-red: hsl(0, 100%, 63%);
     --color-neutral-very-dark-cyan: hsl(192, 100%, 9%);
     --color-neutral-very-pale-blue: hsl(207, 100%, 98%);
+    --color-top-bottom-section: #F6FBFF;
     --font-family-headings: 'Poppins';
     --font-weight-headings: 700;
-    --font-family-headings: 'Open Sans';
-    --font-weight1-headings: 400;
-    --font-weight2-headings: 600;
-    --font-weight3-headings: 700;
-    --icon-font-awesome: 'https://fontawesome.com/';
-    --ico-moon: 'https://icomoon.io';
-    --ion-icons: 'https://ionicons.com';
+    --font-family-body: 'Open Sans';
+    --font-weight1-body: 400;
+    --font-weight2-body: 600;
+    --font-weight3-body: 700;
 }
 
 * {
