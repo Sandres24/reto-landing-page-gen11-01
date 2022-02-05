@@ -1,0 +1,50 @@
+@import url("./main.css");
+
+body{
+    font-family: sans-serif;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.logo{
+    margin: 10px;
+
+}
+
+.button{
+    border-radius: 1.5rem;
+    color:hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);;
+    margin: 20px;
+    padding: 10px;
+       
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.texto1{
+    font-weight: ;
+    text-align: center;
+    margin-top: 20px;
+}
+.texto2{
+    
+}
+
+.button2{
+      color: aliceblue;
+    border: none;
+    background-color: hsl(321, 100%, 78%);
+    border-radius: 10px;
+    padding: 30px 50px;
+    margin-left: 400px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+
