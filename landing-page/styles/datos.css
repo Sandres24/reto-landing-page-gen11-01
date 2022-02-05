@@ -1,0 +1,42 @@
+.datos {
+    margin-bottom: 10rem;
+  }
+  
+  .datos .caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .archivo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+  
+  .archivo img {
+    width: 2.5rem;
+  }
+  
+  .numero {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--Very_Dark_Cyan);
+  }
+  
+  .archivo p {
+    text-align: center;
+    font-size: 1.3rem;
+    color: gray;
+  }
+  
+  @media (min-width: 375px) {
+  
+    .datos .caja {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    
+  }
