@@ -1,24 +1,25 @@
 @import url('./main.css');
 
+
 /* DESIGN FOR 375PX - MOBILE */
 
 .conversation {
-    width: 100%;
+    width: 85%;
+    max-width: 1225px;
+    margin: auto;
     margin-bottom: 7rem;
+    text-align: center;
 }
 
 .conversation__image {
-    background-image: url('../assets/images/illustration-flowing-conversation.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30vh;
-    margin:auto;
+    width: 75%;
+    max-width: 400px;
     margin-bottom: 4rem;
 }
 
 .conversation__description {
     width: 85%;
+    max-width: 275px;
     margin: auto;
     text-align: center;
 }
@@ -39,34 +40,44 @@
 .users {
     width: 100%;
     margin-bottom: 4rem;
+    text-align: center;
 }
 
 .users__container {
-    background-color: var(--color-top-bottom-section);
+    /* background-color: var(--color-top-bottom-section); */
+    background-image: url('../assets/images/bg-section-top-mobile-2.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.users__content {
+    max-width: 1225px;
+    margin: auto;
     padding: 1rem 0 7rem 0;
 }
 
 .users__bg-section-top {
+    background-color: black;
     background-image: url('../assets/images/bg-section-top-mobile-2.svg');
+    
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: bottom;
     height: 103px;
+    background-image: url('../assets/images/bg-section-bottom-mobile-2.svg');
 }
 
 .users__image {
-    background-image: url('../assets/images/illustration-your-users.svg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 30vh;
-    margin: auto;
+    width: 75%;
+    max-width: 400px;
     margin-bottom: 4rem;
 }
 
 .users__description {
     width: 85%;
+    max-width: 320px;
     margin: auto;
-    text-align: center;
+    
 }
 
 .users__description>h2 {
@@ -85,6 +96,8 @@
 .users__bg-section-bottom {
     background-image: url('../assets/images/bg-section-bottom-mobile-2.svg');
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
     height: 103px;
 }
 
@@ -110,15 +123,13 @@
     padding: .7rem 3rem;
     border: none;
     border-radius: 10rem;
+    cursor: pointer;
 }
 
-.get-started>button:hover {
-    background-color: var(--color-primary-light-pink);
-}
 
-/* DESIGN FOR 1140PX - DESKTOP */
+/* DESIGN FOR 992PX - DESKTOP */
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 992px) {
 
     .conversation {
         width: 85%;
@@ -130,14 +141,12 @@
     }
 
     .conversation__image {
-        background-position-x: left;
-        width: 45vw;
-        height: 40vh;
+        max-width: 45%;
         margin: 0;
     }
 
     .conversation__description {
-        width: 42%;
+        max-width: 42%;
         margin: 0;
         text-align: left;
     }
@@ -155,10 +164,8 @@
         margin-bottom: 7rem;
     }
     
-    .users__container {
-        width: 100%;
-        margin: 0;
-        padding: 1rem 7.55% 7rem 7.5%;
+    .users__content {
+        padding: 3rem 0;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -169,16 +176,14 @@
         background-image: url('../assets/images/bg-section-top-desktop-2.svg');
         height: 156px;
     }
-    
+
     .users__image {
-        background-position-x: right;
-        width: 40vw;
-        height: 40vh;
+        max-width: 45%;
         margin: 0;
     }
     
     .users__description {
-        width: 43%;
+        max-width: 43%;
         margin: 0;
         text-align: left;
     }
@@ -194,6 +199,10 @@
     .users__bg-section-bottom {
         background-image: url('../assets/images/bg-section-bottom-desktop-2.svg');
         height: 139px;
+    }
+
+    .get-started>button:hover {
+        background-color: var(--color-primary-light-pink);
     }
 
 }
