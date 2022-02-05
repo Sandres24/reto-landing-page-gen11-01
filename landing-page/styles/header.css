@@ -57,6 +57,16 @@
     margin-bottom: 2rem;
 }
 
+.community_images {
+    margin: 25px;
+    padding:0 45px;
+    width: 90%;
+    max-width: 900px
+}
+
+.community_img {
+    width: 100%;
+}
 
 /* DESIGN FOR 992PX - DESKTOP */
 
@@ -85,6 +95,16 @@
     
     .community__description>p {
         font-size: 16px;
+    }
+
+    .community_images {
+        margin: 80px;
+        padding:10px 20px;
+        max-width: 1225px
+    }
+    
+    .community_img {
+        width: 100%;
     }
 
 }
