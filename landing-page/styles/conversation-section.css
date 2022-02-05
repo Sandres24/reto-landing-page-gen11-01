@@ -57,14 +57,11 @@
 }
 
 .users__bg-section-top {
-    background-color: black;
     background-image: url('../assets/images/bg-section-top-mobile-2.svg');
-    
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
     height: 103px;
-    background-image: url('../assets/images/bg-section-bottom-mobile-2.svg');
 }
 
 .users__image {

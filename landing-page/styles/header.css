@@ -16,6 +16,8 @@
 .contenedor>div {
     max-width: 110px;
     height: fit-content;
+    display: flex;
+    align-items: center;
 }
 
 .logo{
