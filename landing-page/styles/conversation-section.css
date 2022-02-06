@@ -3,6 +3,60 @@
 
 /* DESIGN FOR 375PX - MOBILE */
 
+.grow-together {
+    background-image: url('../assets/images/bg-section-top-mobile-1.svg'), url('../assets/images/bg-section-bottom-mobile-1.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    padding: 28% 0 13% 0;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.grow-together__background {
+    background-color: var(--color-top-bottom-section);
+    width: 100%;
+}
+
+.grow-together__container {
+    width: 85%;
+    max-width: 1225px;
+    margin: auto;
+}
+
+.grow-together__content {
+    max-width: 1225px;
+    padding: 2rem 0 7rem 0;
+}
+
+.grow-together__image {
+    width: 70%;
+    max-width: 400px;
+    margin-bottom: 4rem;
+}
+
+.grow-together__description {
+    width: 85%;
+    max-width: 320px;
+    margin: auto;
+    
+}
+
+.grow-together__description>h2 {
+    font-family: var(--font-family-headings);
+    font-weight: var(--font-weight-headings);
+    font-size: 20px;
+    margin-bottom: .5rem;
+}
+
+.grow-together__description>p {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight1-body);
+    font-size: 14px;
+}
+
 .conversation {
     width: 85%;
     max-width: 1225px;
@@ -38,34 +92,34 @@
 }
 
 .users {
+    background-image: url('../assets/images/bg-section-top-mobile-2.svg'), url('../assets/images/bg-section-bottom-mobile-2.svg');
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    padding: 26% 0;
     width: 100%;
+    margin: auto;
     margin-bottom: 4rem;
     text-align: center;
 }
 
+.users__background {
+    background-color: var(--color-top-bottom-section);
+    width: 100%;
+}
+
 .users__container {
-    /* background-color: var(--color-top-bottom-section); */
-    background-image: url('../assets/images/bg-section-top-mobile-2.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    width: 85%;
+    max-width: 1225px;
+    margin: auto;
 }
 
 .users__content {
-    max-width: 1225px;
-    margin: auto;
     padding: 1rem 0 7rem 0;
 }
 
-.users__bg-section-top {
-    background-image: url('../assets/images/bg-section-top-mobile-2.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
-    height: 103px;
-}
-
 .users__image {
-    width: 75%;
+    width: 70%;
     max-width: 400px;
     margin-bottom: 4rem;
 }
@@ -88,14 +142,6 @@
     font-family: var(--font-family-body);
     font-weight: var(--font-weight1-body);
     font-size: 14px;
-}
-
-.users__bg-section-bottom {
-    background-image: url('../assets/images/bg-section-bottom-mobile-2.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    height: 103px;
 }
 
 .get-started {
@@ -128,6 +174,42 @@
 
 @media only screen and (min-width: 992px) {
 
+    .grow-together {
+        background-image: url('../assets/images/bg-section-top-desktop-1.svg'), url('../assets/images/bg-section-bottom-desktop-1.svg');
+        background-position: top, bottom;
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain, contain;
+        padding: 11% 0 9% 0;
+        margin-bottom: 7rem;
+    }
+    
+    .grow-together__content {
+        padding: 3rem 0;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .grow-together__image {
+        max-width: 45%;
+        margin: 0;
+    }
+    
+    .grow-together__description {
+        max-width: 43%;
+        margin: 0;
+        text-align: left;
+    }
+    
+    .grow-together__description>h2 {
+        font-size: 40px;
+    }
+    
+    .grow-together__description>p {
+        font-size: 16px;
+    }
+
     .conversation {
         width: 85%;
         margin: auto;
@@ -158,7 +240,15 @@
     }
 
     .users {
+        background-image: url('../assets/images/bg-section-top-desktop-2.svg'), url('../assets/images/bg-section-bottom-desktop-2.svg');
+        background-position: top, bottom;
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain, contain;
+        padding: 9% 0;
+        width: 100%;
+        margin: auto;
         margin-bottom: 7rem;
+        text-align: center;
     }
     
     .users__content {
@@ -167,11 +257,6 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-    }
-    
-    .users__bg-section-top {
-        background-image: url('../assets/images/bg-section-top-desktop-2.svg');
-        height: 156px;
     }
 
     .users__image {
@@ -191,11 +276,6 @@
     
     .users__description>p {
         font-size: 16px;
-    }
-
-    .users__bg-section-bottom {
-        background-image: url('../assets/images/bg-section-bottom-desktop-2.svg');
-        height: 139px;
     }
 
     .get-started>button:hover {

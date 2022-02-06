@@ -60,10 +60,9 @@
 }
 
 .community_images {
-    margin: 25px;
-    padding:0 45px;
-    width: 90%;
-    max-width: 900px
+    width: 75%;
+    max-width: 900px;
+    margin: 4rem auto;
 }
 
 .community_img {
@@ -100,8 +99,6 @@
     }
 
     .community_images {
-        margin: 80px;
-        padding:10px 20px;
         max-width: 1225px
     }
     
