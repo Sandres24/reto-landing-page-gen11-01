@@ -1,0 +1,109 @@
+@import url("./main.css");
+
+
+/* DESIGN FOR 375PX - MOBILE */
+
+.contenedor{
+    width: 95%;
+    max-width: 1350px;
+    margin: auto;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+} 
+.contenedor>div {
+    max-width: 110px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+}
+
+.button{
+    background-color: transparent;
+    color: var(--color-primary-pink);
+    padding: .5rem 1.5rem;
+    border: 1px solid var(--color-primary-pink);
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.community {
+    margin: auto;
+}
+
+.community__description {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+}
+
+.community__description>h1 {
+    font-family: var(--font-family-headings);
+    font-weight: var(--font-weight-headings);
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.community__description>p {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight1-body);
+    font-size: 14px;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.community_images {
+    width: 75%;
+    max-width: 900px;
+    margin: 4rem auto;
+}
+
+.community_img {
+    width: 100%;
+}
+
+/* DESIGN FOR 992PX - DESKTOP */
+
+@media only screen and (min-width: 992px) {
+
+    .contenedor{
+        padding: 2rem 0;
+    }
+
+    .contenedor>div {
+        max-width: 150px;
+    }
+
+    .button:hover {
+        color: var(--color-primary-light-pink);
+        border-color: var(--color-primary-light-pink);
+    }
+
+    .community {
+        max-width: 1225px;
+    }
+
+    .community__description>h1 {
+        font-size: 44px;
+    }
+    
+    .community__description>p {
+        font-size: 16px;
+    }
+
+    .community_images {
+        max-width: 1225px
+    }
+    
+    .community_img {
+        width: 100%;
+    }
+
+}
